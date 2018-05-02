@@ -16,3 +16,16 @@ factorial <- function(n) {
   return(result)
 }
 ```
+
+## Recursive functions
+The factorial function can be implemented in a recursive way, too.
+
+```R
+factorial <- function(n) {
+  if (0 == n) { # base
+    return(1)
+  } else { # recursive step
+    return(n * factorial(n - 1))
+  }
+}
+```
