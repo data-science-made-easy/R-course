@@ -10,8 +10,10 @@ In R you can write your own functions, e.g.:
 ```R
 factorial <- function(n) {
   result <- 1
-  for (i in 1:n) {
-    result <- result * i
+  if (0 < n) {
+    for (i in 1:n) {
+      result <- result * i
+    }
   }
   return(result)
 }
