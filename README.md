@@ -33,7 +33,7 @@ factorial <- function(n) {
 ```
 
 ## Exercise
-Your goal is to implement a recursive function solving the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi). We have created most of the code for you ([download here](https://raw.githubusercontent.com/data-science-made-easy/R-course/master/hanoi_assignment.R)):
+Your goal is to implement a recursive function solving the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi). Besides the idea of recursive functions, you also learn to work with lists and vectors. We have created most of the code for you ([download here](https://raw.githubusercontent.com/data-science-made-easy/R-course/master/hanoi_assignment.R)).
 
 ```R
 MoveTower = function(n, source, dest, via, tower)
