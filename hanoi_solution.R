@@ -1,8 +1,8 @@
 rm(list=ls()) # Remove all objecs, be sure you work with a clean environment
 
-MoveTower = function(n, source, dest, via, tower)
+MoveTower = function(n, source, dest, extra, tower)
 {
-	# MoveTower moves n disks from pilar source to pilar dest via pilar spare in tower 'tower'
+	# MoveTower moves n disks from pilar source to pilar dest via pilar 'extra in tower 'tower'
 	if (n == 1)
 	{
 		# get the disk
@@ -19,9 +19,9 @@ MoveTower = function(n, source, dest, via, tower)
 	}
 	else # 1 < n
 	{
-		tower = MoveTower(n - 1, source, via, dest, tower)
-		tower = MoveTower(1, source, dest, via, tower)
-		tower = MoveTower(n - 1, via, dest, source, tower)
+		tower = MoveTower(n - 1, source, extra, dest, tower)
+		tower = MoveTower(1, source, dest, extra, tower)
+		tower = MoveTower(n - 1, extra, dest, source, tower)
 	}
 	
 	# return our new tower
