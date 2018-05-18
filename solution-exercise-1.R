@@ -5,5 +5,4 @@ f <- function(n) {
     return(n * f(n-1))
 }
 ​
-# Test your solution
 f(3) # 6
