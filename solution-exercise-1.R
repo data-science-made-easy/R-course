@@ -5,4 +5,4 @@ f <- function(n) {
     return(n * f(n-1))
 }
 ​
-f(3) # 6
+f(3) == 6
