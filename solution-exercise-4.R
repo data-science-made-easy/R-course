@@ -8,7 +8,6 @@ print_towers <- function(towers) {
   cat(paste0(get_peg(1), get_peg(2), get_peg(3), "\n"))
 }
 
-
 MoveDisks = function(n, source, dest, extra, towers) {
   if (0 == n)	{
     # base case: do nothing
