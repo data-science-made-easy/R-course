@@ -1,2 +1,2 @@
 # R-course (solutions)
-This repo contains the solutions of [this R-course](https://james.gitbook.io/r-course/).
+Solutions of exercises in [an introductory course on the recursive function in R](https://james.gitbook.io/r-course/).
